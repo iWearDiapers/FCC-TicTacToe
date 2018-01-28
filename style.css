@@ -1,0 +1,39 @@
+.gameTbl {
+  table-layout: fixed;
+  width: 50%;
+}
+
+#actionBar {
+  width: 50%;
+}
+
+#actionBar button {
+  width: calc(100%/3);
+}
+
+#scoreBar {
+  width: 50%;
+}
+
+#scoreBar td {
+  width: calc(100%/3);
+  
+  border: dotted blue 1px;
+  
+  text-align: center;
+  font-size:  1.5em;
+  
+  background-color: beige;
+}
+
+.gameTbl td {
+  
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  border-collapse: collapse;
+  height: 2em;
+  
+  text-align: center;
+  font-size:  3em;
+}
